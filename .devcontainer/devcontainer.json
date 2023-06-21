@@ -1,13 +1,17 @@
 {
 	"name": "PlatformIO (Community)",
 	"dockerFile": "Dockerfile",
-	"settings": {
-		"terminal.integrated.defaultProfile.linux": "zsh"
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"terminal.integrated.defaultProfile.linux": "zsh"
+			},
+			"extensions": [
+				"ms-vscode.cpptools",
+				"platformio.platformio-ide"
+			]
+		}
 	},
-	"extensions": [
-		"ms-vscode.cpptools",
-		"platformio.platformio-ide",
-	],
 	"forwardPorts": [
 		8008
 	],
