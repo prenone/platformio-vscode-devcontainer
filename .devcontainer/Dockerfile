@@ -26,5 +26,4 @@ RUN curl -fLo /etc/udev/rules.d/99-platformio-udev.rules --create-dirs https://r
 
 USER $USERNAME
 
-# updated to new URL according https://docs.platformio.org/en/latest/core/installation/methods/installer-script.html#super-quick-macos-linux
-RUN python3 -c "$(curl -fsSL https://raw.githubusercontent.com/platformio/platformio-core-installer/master/get-platformio.py)"
+RUN curl -fsSL https://raw.githubusercontent.com/platformio/platformio-core-installer/master/get-platformio.py | python3 -
