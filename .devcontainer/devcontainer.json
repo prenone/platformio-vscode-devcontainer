@@ -21,5 +21,8 @@
 	"runArgs": [
 		"--privileged"
 	],
+	"features": {
+		"ghcr.io/devcontainers/features/python:1": {},
+	},
 	"postAttachCommand": "sudo service udev restart"
 }
