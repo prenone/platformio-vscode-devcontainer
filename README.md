@@ -6,7 +6,7 @@
 
 | Metadata                    | Value                          |
 | --------------------------- | -------------------------------|
-| *Contributors*              | Achille Merendino (prenone)    |
+| *Contributors*              | [On Github](https://github.com/prenone/platformio-vscode-devcontainer/graphs/contributors)    |
 | *Categories*                | IoT                            |
 | *Definition type*           | Dockerfile                     |
 | *Container host OS support* | Linux, macOS (not tested),     |
