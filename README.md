@@ -9,9 +9,11 @@
 | *Contributors*              | [On Github](https://github.com/prenone/platformio-vscode-devcontainer/graphs/contributors)    |
 | *Categories*                | IoT                            |
 | *Definition type*           | Dockerfile                     |
-| *Container host OS support* | Linux, macOS (not tested),     |
+| *Container host OS support* | Linux                          |
 | *Container OS*              | Debian (`bookworm`, `bullseye`)|
 | *Languages, platforms*      | PlatformIO, C++, Python        |
+
+MacOS version of Docker does not support USB Passthrough, so downloading and serial port monitoring is not possible from a Docker container at this time. [USB Passthrough on macOS](https://github.com/docker/roadmap/issues/511)
 
 ## Using this definition
 
